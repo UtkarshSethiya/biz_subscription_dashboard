@@ -1,0 +1,107 @@
+
+.welcomecont{
+  color: black;
+    font-size: 16px;
+}
+.bi-info-circle-fill{
+    color: orangered !important;
+    font-size: 35px !important;
+   
+    
+}
+.adon{
+    background: #86ECC6 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 6px !important;
+  position: relative;
+   bottom: 10%;
+   margin-right: 20px !important;
+  font-weight: 700 !important;
+  font-size: 19px;
+  }
+.info{
+   padding:0px !important;
+  
+}
+.subbutton{
+    background: #FF910F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 49.5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  }
+  
+.openbutton{
+    border: none;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 4px #717171;
+}
+
+
+/*barchart*/
+
+@media only screen and (max-width:480px){
+    .topimage{
+        width: 350px;
+        height: 300px;
+    }
+    
+    }
+
+@media only screen and (max-width:795px){
+.welcomecont{
+    font-size: 10px;
+}
+.chart{
+    width: fit-content !important;
+
+}
+#quickstartguide{
+    display: none;
+}
+
+}
+@media screen and (max-width:790px){
+    /* .dropdown-content{
+         left: 0 !important;
+     }
+     .dropdown:active .dropdown-content{
+         display: block !important;
+     }*/
+     .button-17{
+         font-size: 10px !important;
+         padding:4px !important;
+         margin: 2px;
+     }
+     .rightbuttons{
+       width: 55% !important;
+     }
+     .subbutton{
+       
+        font-size: 10px;
+   
+     }
+     .subcont{
+       position: relative; 
+    top:10% !important;
+       
+     }
+     .logo{
+       width: 120px;
+     }
+    .adon{
+      font-weight: 400 !important;
+      font-size: 13px !important;
+    }
+   
+   }

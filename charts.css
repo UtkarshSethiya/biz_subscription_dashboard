@@ -1,0 +1,141 @@
+.bi-calendar-fill{
+    font-size: 35px!important;
+    background: #FFFFFF;
+    border: 3px solid #39B587;
+    box-sizing: border-box;
+    padding: 20px;
+border-radius: 100%;
+
+}
+.bi-person-video3{
+    font-size: 35px!important;
+    background: #FFFFFF;
+    border: 3px solid #39B587;
+    box-sizing: border-box;
+    padding: 20px;
+border-radius: 100%;
+}
+.bi-ticket-fill{
+    font-size: 35px!important;
+    background: #FFFFFF;
+    border: 3px solid #39B587;
+    box-sizing: border-box;
+    padding: 20px;
+border-radius: 100%;
+}
+.bi-trophy-fill{
+    font-size: 35px!important;
+    background: #FFFFFF;
+    border: 3px solid #39B587;
+    box-sizing: border-box;
+    padding: 20px;
+border-radius: 100%;
+}
+.bi-award-fill{
+    font-size: 35px!important;
+    background: #FFFFFF;
+    border: 3px solid #39B587;
+    box-sizing: border-box;
+    padding: 20px;
+border-radius: 100%;
+}
+.bi-person-x-fill{
+    font-size: 35px!important;
+    background: #FFFFFF;
+    border: 3px solid #39B587;
+    box-sizing: border-box;
+    padding: 20px;
+border-radius: 100%;
+}
+.chart{
+    background: #DDFFEF;
+border-radius: 10px;
+    text-align: center !important;
+  padding:0px;
+  margin-top: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.chart:hover{
+    transform: scale(1.04);
+    transition-duration: .5s;
+}
+
+@font-face {
+    font-family: heading;
+    src: url(fonts/Slabo13px-Regular.ttf);
+  }
+.heading{
+    font-family: heading;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+text-align: center;
+}
+.content{
+    font-family: heading;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+color: #39B587;
+
+}
+.chart{
+    margin: 15px;
+}
+.secondrow {
+    margin-top: 10px !important;
+}
+
+@media screen and (max-width:790px){
+    .bi-calendar-fill{
+        font-size: 15px !important;
+       color: rgb(27, 27, 27);
+    
+    }
+    .bi-person-video3{
+        font-size: 15px !important;
+        color: rgb(27, 27, 27);
+    }
+    .bi-ticket-fill{
+        font-size: 15px !important;
+        color: rgb(27, 27, 27);
+    }
+    .bi-trophy-fill{
+        font-size: 15px !important;
+        color: rgb(27, 27, 27);  
+    }
+    .bi-award-fill{
+        font-size: 15px !important;
+        color: rgb(27, 27, 27);  
+    }
+    .bi-person-x-fill{
+        font-size: 15px !important;
+        color: rgb(27, 27, 27); 
+    }
+    .heading{
+        color: rgb(0, 60, 255);
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .content{
+        color: rgb(8, 8, 8);
+        font-size: 8px;
+    }
+    .chart{
+        padding-left:30px!important;
+        padding-right: 30px!important;
+        margin: 10px;
+    }
+    .bi-info-circle-fill{
+        font-size: 20px !important;
+    }
+}
+
+/*.design{
+    height: 2px;
+    max-width: 100%;
+    background-color: blue;
+}*/
