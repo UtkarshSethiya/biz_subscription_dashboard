@@ -88,6 +88,15 @@ color: #39B587;
 .secondrow {
     margin-top: 10px !important;
 }
+.contactus{
+   text-decoration: none;
+   color: black;
+   font-weight: 600;
+   font-size: 30px !important; 
+   background: white;
+   padding: 10px;
+   border-radius: 180px;
+}
 
 @media screen and (max-width:790px){
     .bi-calendar-fill{

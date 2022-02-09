@@ -1307,8 +1307,9 @@ a[data-toggle="collapse"] {
   }
 }
 #content {
-  width: 100%;
+  width: 100vw;
   padding: 0;
+  margin: 0px !important;
   min-height: 100vh;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -1327,7 +1328,7 @@ a[data-toggle="collapse"] {
   color: rgba(255, 255, 255, 0.5);
 }
 .sidebar {
-  background: #EFFDF6 !important;
+  background: #F1F1F1 !important;
 }
 
 #sidebar ul li a {

@@ -70,18 +70,23 @@
 <body style="background-color:#ffffff; margin-right: 0px !important;">
 
         <!--Navbar-->
-         <nav class="navbar navbar-expand-lg " >
-        <div class="container-fluid">
-          <div class="col-2">
-            <img class="logo " src="images/bizlogo.png" height="82px" width="154px">
-          </div>
+      
+        <div class=" navbar  row">
+             <div class="col-md-2"  >
+              <img class="logo " src="images/bizlogo.png" height="82px" width="154px">
+            </div>
+            <div class="col-2 space " ></div>
+<div class="col-md-4 rightbuttons" > <a href="#" class="adon btn">Add-ons</a>
+  <a href="#" class="subbutton btn">Upgrade Subscription</a></div>
+
+            <div class="col-md-2" ></div>
          
-          <div class="col-3 rightbuttons " style="color: orangered !important; display: flex; justify-content: space-between; ">
+             <div class="col-md-2  rightbuttons " >
             
           
-            <a href="#" class="adon btn">Add-ons</a><br>
+           
             <a href="#" class="icon" ><img height="25px" src="images/bell.png"></a><br>
-            <a href="#" class="icon"  > <i class="bi bi-calculator-fill"></i></a><br>
+            <a href="https://knowledgebasebizconnect.herokuapp.com/calculator" class="icon"  > <i class="bi bi-calculator-fill"></i></a><br>
             <a href="#" class="icon"> <img height="25px" src="images/cart.png"></a><br>
         
           
@@ -98,7 +103,7 @@
           </div>
          
         </div>
-      </nav>
+
       
       <!--sidebar-->
       <div class="wrapper d-flex align-items-stretch" >
@@ -453,22 +458,41 @@
   
         <!-- Page Content  -->
         <!--WELCOME MESSAGE-->
-        <div id="content" class=" " style="background-color:#ffffff !important ; padding: 0px !important; margin-right: 12px; ">
-          <div class="row controw" style="background: #39B587; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);" >
+        <div id="content" class=" " style="background-color:#ffffff !important ;        ">
+          <div class="row  " style=" background: rgba(196, 196, 196, 1)  ;    " >
            <div class="col-1"></div>
-            <div class="col-md-5 cont"   >
+           <div class="col-md-5 subcont " style="text-align: center; ">
+            <div class=" style="position: relative; top: 30%;">
+             
+                        <p style="font-weight: 600; font-size: 18px;">Welcome <span style="color: white;">Masum Billah!</span>  to BizConnect Virtual Event Platform! Simple Steps To Superlative Audience Experience & The Event's Success</p>
+        <!---  <div class="row">
+                        <div class=" col-md-5 chart">
+                        
+                          <i class="bi bi-calendar-fill"></i><br>
+                          <br>
+                          <span class="heading">SUBSCRIPTION: FREE</span><br><br>
+                          <span class="content">Expire On: 03-02-2022</span><br><br>
+                        </div>
+                      
+                        <div class=" col-md-5 chart">
+                          
+                          <i class="bi bi-person-video3"></i><br><br>
+                        <span class="heading">ATTENDEE REMAINING</span><br><br>
+                        <span class="content">50</span><br>
+                        <br>
+                         </div>
+           
+                         </div> --->
+                </div> 
+              </div>
+               
+        
+              <div class="col-md-1"></div>
+              
+              <div class="col-md-5 cont"    >
                 <img class="topimage" src="images/topimage.png">
               
                </div>
-               <div class="col-md-1"></div>
-               <div class="col-md-5 " style="text-align: center; ">
-                <div class="subcont" style="position: relative; top: 30%;">
-                   <button class="subbutton">Upgrade Subscription</button><pre></pre>
-                             <p style="font-weight: 600;">Welcome <span style="color: white;">Masum Billah!</span>  to BizConnect Virtual Event Platform! Simple Steps To Superlative Audience Experience & The Event's Success</p>
-                </div>  
-                    
-                    
-              </div> 
                       
                     </div>
                <br>
@@ -522,7 +546,7 @@
                                       <div class="col-md-1"></div>
                 </div>
 
-                <br>
+                
 
                 <div class="row secondrow  chartcont">
                  
@@ -561,17 +585,19 @@
 
 
             
-
-             <br>   <br>
-                <br>
+<pre></pre><pre></pre>
+<pre></pre><pre></pre>
+              
               
         
             <!--BarGraphs-->
             <div class="row" style="justify-content:left !important;">
-              <div class="col-md-1"></div>
-              <div class="col-md-6" id="container" style="  "> </div>
+            
+             <div class="col-md-1"></div>
+         
+              <div class="col-md-5"  id="container" style="   "> </div>
           
-      <script >
+      <script  >
         Highcharts.chart("container", {
           chart: {
             type: "column",
@@ -620,15 +646,8 @@
   
         
          </script>
-         <div class="col-5"> <img src="images/downimage.png"></div>
-            </div>
-           
-            
-
-<div> <br><br></div>
-
- <!--LineGraphs-->
- <div id="container2" ></div>
+         <!--LineGraphs-->
+ <div class="col-md-6" id="container2" style=" " ></div>
  <script>
    Highcharts.chart("container2", {
      chart: {
@@ -676,40 +695,33 @@
 
  
             </div>
-    
+        
+            <pre></pre> <pre></pre> <pre></pre>
+            </div>
+          
+
+<div> <br><br>  </div>
+
+ 
+
     
            </div>
           
            <!--footer-->
-             <div class="social"  style="background:#39B587 ; padding: 20px;
+             <div class="social row"  style="background:#39B587 ; padding: 20px;
            
-             display: flex;
-             justify-content: space-between;" >
+            " >
             
-             <div class='contactusbutton ' style="cursor: pointer;
-             font-family: Roboto;
-         font-style: normal;
-         font-weight: bold;
-         font-size: 29px;
-         
-         padding-right: 10px;
-         padding-left: 10px;
-         background: #FFFFFF;
-         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-         border-radius: 100px;
-         /* identical to box height */
-         
-         
-         
-         color: #000000;"><a >Contact Us</a></div>
-              
-               <div><p> <i class="bi bi-envelope"></i> contact@bizconnectevents.com</p></div>
+             <div class='col-lg-2 ' style="text-align: center;"><a href="#" class="contactus " >Contact Us</a></div>
+              <div class="col-3"></div>
+               <div class="col-lg-3 " style="text-align: center;" ><p> <i class="bi bi-envelope"></i> contact@bizconnectevents.com</p></div>
            
            
            
-         
+               <div class="col-1"></div>
        
-             <div >
+             <div class="col-lg-3" style="text-align: end; display: flex; justify-content: space-evenly;">
+            
                 <a  href='https://www.facebook.com/bizconnectevents/' ><img src='images/fb.png'  alt='2809768-facebook-media-online-social-icon-1'/></a>
                          <a  href= 'https://www.linkedin.com/company/biz-connect-events/' ><img src='images/in.png'  alt='6584510-linkedin-logo-media-social-icon'/></a>
        
