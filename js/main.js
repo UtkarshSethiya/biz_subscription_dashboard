@@ -14,9 +14,13 @@
 
 	$('#sidebarCollapse').on('click', function () {
       $('#sidebar').toggleClass('active');
+	 
   });
 
 })(jQuery);
+
+
+
 document.getElementById('sidebar').classList.toggle('active');
 
 var nav = document.querySelector('components');

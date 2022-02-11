@@ -1,7 +1,15 @@
 
+
+@font-face {
+  font-family: heading;
+  src: url(fonts/Slabo13px-Regular.ttf);
+}
 .welcomecont{
+  font-family: heading;
   color: black;
-    font-size: 16px;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
 }
 .bi-info-circle-fill{
     color: orangered !important;
@@ -9,17 +17,23 @@
    
     
 }
+.topimage{
+  min-height: 210%;
+  max-height: 220%;
+  max-width: 80% !important;
+}
+
 .subcont{
-  padding-top: 170px;
+  padding-top: 100px;
 }
 
 .rightbuttons{
-  color: orangered !important; 
+ 
   display: flex; 
 justify-content: space-around;
  
   height: fit-content !important; 
-  padding-top:20px  ;
+
 }
 .adon{
     background: #86ECC6 !important;
@@ -28,7 +42,7 @@ justify-content: space-around;
   
 
   font-weight: 700 !important;
-  font-size: 19px;
+  font-size: 17px !important;
   }
 .info{
    padding:0px !important;
@@ -40,7 +54,7 @@ justify-content: space-around;
     border-radius: 6px !important;
    
     font-weight: 700 !important;
-    font-size: 19px;
+    font-size: 17px !important;
     text-decoration: none;
     color: black;
   }
@@ -59,15 +73,31 @@ justify-content: space-around;
 
 /*barchart*/
 
+@media only screen and (max-width:1225px){
+
+
+}
 @media only screen and (max-width:480px){
-    .topimage{
-        width: 350px;
-        height: 300px;
-    }
+   
     
     }
 
 @media only screen and (max-width:795px){
+.align{
+  text-align: end;
+}
+
+  .topcont{
+   
+    left: 3% !important;
+margin-top: 50px !important;
+    width: 100vw !important;
+    z-index: 2;
+  
+  }
+  .topimage{
+    display: none;
+  }
 .welcomecont{
     font-size: 10px;
 }
@@ -104,10 +134,10 @@ justify-content: space-around;
      .space{
        display: none;
      }
-     .subbutton{
-      
-        font-size: 10px;
-   
+     .btn{
+      padding: 0px;
+        font-size: 8px !important;
+  
      }
      .subcont{
 
@@ -118,8 +148,7 @@ justify-content: space-around;
        width: 120px;
      }
     .adon{
-      font-weight: 400 !important;
-      font-size: 13px !important;
+      
     }
     #email{
       display: none;
