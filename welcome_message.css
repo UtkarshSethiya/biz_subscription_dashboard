@@ -74,12 +74,15 @@ justify-content: space-around;
 /*barchart*/
 
 @media only screen and (max-width:1225px){
-
+ 
 
 }
-@media only screen and (max-width:480px){
+@media only screen and (max-width:450px){
    
-    
+  .spacechart{
+    display: block !important;
+   width: 4px !important;
+  }
     }
 
 @media only screen and (max-width:795px){
@@ -87,14 +90,41 @@ justify-content: space-around;
   text-align: end;
 }
 
+.mobileimagecont{
+  display: block !important;
+  margin-bottom: 10px;
+  
+}
+.mobileimage{
+  height: 300px;
+}
   .topcont{
-   
-    left: 3% !important;
+    left: 0% !important;
+    margin: 0px !important;
+    position: static;
+   width: 100% !important;
+ 
+  
+    /*left: 3% !important;
+  
 margin-top: 50px !important;
     width: 100vw !important;
-    z-index: 2;
+    z-index: 2;*/
   
   }
+
+  .left{
+
+  }
+  .topchart{
+   
+    margin: 0px !important;
+  
+  }
+  .chartup{
+    margin-top: 28px !important;
+  }
+  
   .topimage{
     display: none;
   }
